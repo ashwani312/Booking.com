@@ -1,0 +1,64 @@
+.flightContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0px 30px 0px;
+    overflow-y: hidden;
+}
+
+.flightContainer .flightTitle {}
+
+.flightContainer .flightHeader {
+    font-size: 16px;
+}
+
+.flightHeaderSearch {
+    display: flex;
+    border: 3px solid orange;
+    width: max-content;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.flighSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.flighSearchItem input {
+    border: none;
+    outline: none;
+}
+
+.flighSearchItem .flightSearchButton {
+    padding: 8px 15px;
+    background-color: #003580;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flighSearchItem .date {
+    position: absolute;
+    left: -16%;
+}
+
+.flighSearchItem .to {
+    margin: 0px 50px 0px 10px;
+}
+
+.flightFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+
+}

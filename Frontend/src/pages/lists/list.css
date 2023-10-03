@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.listContainer{
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+   font-family: 'Lato', sans-serif;
+   flex-direction: column;
+   align-items: center;
+}
+.listwrapper{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    gap: 25px;
+
+}
+.listSearch {
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+.lstitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+.lsItem label{
+    font-size: 90px;
+}
+.lsItem>label{
+    font-size: 12px;
+}
+.lsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.lsItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.lsOptionInput{
+    width: 50px;
+    border: none;
+    padding: 2px;
+}
+.searchBtn{
+    width: 100%;
+    padding: 9px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #0071c2;
+    color: white;
+}
+.lsOptions{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.listResult{
+    flex: 3;
+}

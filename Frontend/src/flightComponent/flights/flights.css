@@ -1,0 +1,74 @@
+.flights {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px 90px;
+  margin-top: 30px;
+  -webkit-box-shadow: 9px 10px 41px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 10px 41px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 10px 41px -3px rgba(0, 0, 0, 0.75);
+  text-align: center;
+
+}
+.flightSearchTexts{
+  -webkit-box-shadow: 9px 21px 41px -28px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 21px 41px -28px rgba(0,0,0,0.75);
+box-shadow: 9px 21px 41px -28px rgba(0,0,0,0.75);
+display: flex;
+gap: 5px;
+flex-direction: column;
+}
+.filterbutton{
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.filterbutton span{
+  border-bottom: 2px solid navy;
+  cursor: pointer;
+}
+
+.flights .flight {
+  margin-top: 30px;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.flight img {
+  height: 250px;
+  width: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.flight span{
+  font-weight: bold;
+}
+.trendingCities{
+  margin-top: 40px;
+  padding: 20px 30px;
+  text-align: center;
+  margin: auto;
+}
+.trendingCities .flightListsMap{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.flightListsMapitem{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+.flightListsMapitem img{
+  height: 250px;
+  width: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+}
